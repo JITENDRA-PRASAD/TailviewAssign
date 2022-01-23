@@ -1,0 +1,32 @@
+.main{
+    margin-left: 300px;
+    background: rgb(37, 151, 226);
+    text-align: left;
+    width: 850px;
+    height: 800px;
+}
+h3{
+    padding-left:350px;
+}
+form {
+    width: 700px;
+    background: rgb(5, 5, 175);
+    margin-left: 50px;
+}
+h5{
+    color: white;
+    padding-left: 20px;
+}
+input{
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 500px;
+}
+.button{
+    margin-top: 50px;
+    padding-left: 270px;
+}
+button{
+    color: white;
+    background: green;
+}

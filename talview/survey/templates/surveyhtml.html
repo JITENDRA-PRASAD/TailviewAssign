@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="static/surveyhtml.css">
+{% endblock %}
+
+{% block title %} Survey {% endblock  %}
+
+{% block main %} 
+<div class="main">
+    <h3>Survey Form</h3>
+    <form method="post" action="">
+        {% csrf_token %}
+            <h5>Name</h5>
+            <input type="text" >
+            <h5>Email</h5>
+            <input type="text">
+            <h5>Age (Optional):</h5>
+            <input type="text">
+            <h5>Which option best describe your current role ?</h5>
+            <input type="text">
+            <h5>Would you recommend this application to a friend?</h5>
+            <input type="text">
+            <h5>which is your favorite feature of the application?</h5>
+            <input type="text">
+            <h5>What would you like to see improved?</h5>
+            <input type="text">
+            <h5>Any comment or suggestions?</h5>
+            <input type="text"><br>
+        <div class="button">
+            <button type="submit">Submit</botton>
+        </div>
+    </form>
+</div>
+{% endblock  %}
